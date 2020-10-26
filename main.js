@@ -1,6 +1,8 @@
 song1 = "";
 song2 = "";
 
+loadSound = "";
+
 song1_status = "";
 song2_status = "";
 
@@ -15,8 +17,8 @@ leftWristY = 0;
 
 function preload()
 {
-	song1 = loadSound("music.mp3");
-	song2 = loadSound("music2.mp3");
+	song1 = loadSound("Song1.mp3");
+	song2 = loadSound("Song2.mp3");
 }
 
 function setup() {
